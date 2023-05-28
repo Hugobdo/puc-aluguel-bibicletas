@@ -2,7 +2,6 @@ from fastapi import FastAPI
 import uvicorn
 import ast
 from ml import predict
-import sklearn
 import json
 import pickle
 from catboost import CatBoostRegressor
